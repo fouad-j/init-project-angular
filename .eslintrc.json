@@ -1,0 +1,14 @@
+{
+  "extends": "google",
+  "rules":{
+    "max-len": [1, 150, 4, {
+      "ignoreComments": true,
+      "ignoreUrls": true
+    }],
+    "require-jsdoc": 0
+  },
+  "globals": {
+    "angular": 1,
+    "app":1
+  }
+}
